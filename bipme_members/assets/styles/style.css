@@ -1,0 +1,712 @@
+/* Fonts
+================================================== */
+
+@font-face {
+    font-family: 'gt_walsheim_thin';
+    src: url('fonts/GT_Walsheim_Web_Thin/gt-walsheim-thin-web.eot');
+    src: url('fonts/GT_Walsheim_Web_Thin/gt-walsheim-thin-web.eot?#iefix') format('embedded-opentype'),
+         url('fonts/GT_Walsheim_Web_Thin/gt-walsheim-thin-web.woff') format('woff'),
+         url('fonts/GT_Walsheim_Web_Thin/gt-walsheim-thin-web.ttf') format('truetype'),
+         url('fonts/GT_Walsheim_Web_Thin/gt-walsheim-thin-web.svg#gt_walsheim_thin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gt_walsheim_thin_oblique';
+    src: url('fonts/GT_Walsheim_Web_Thin/gt-walsheim-thin-oblique-web.eot');
+    src: url('fonts/GT_Walsheim_Web_Thin/gt-walsheim-thin-oblique-web.eot?#iefix') format('embedded-opentype'),
+         url('fonts/GT_Walsheim_Web_Thin/gt-walsheim-thin-oblique-web.woff') format('woff'),
+         url('fonts/GT_Walsheim_Web_Thin/gt-walsheim-thin-oblique-web.ttf') format('truetype'),
+         url('fonts/GT_Walsheim_Web_Thin/gt-walsheim-thin-oblique-web.svg#gt_walsheim_thin_oblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gt_walsheim_medium';
+    src: url('fonts/GT_Walsheim_Web_Medium/gt-walsheim-medium-web.eot');
+    src: url('fonts/GT_Walsheim_Web_Medium/gt-walsheim-medium-web.eot?#iefix') format('embedded-opentype'),
+         url('fonts/GT_Walsheim_Web_Medium/gt-walsheim-medium-web.woff') format('woff'),
+         url('fonts/GT_Walsheim_Web_Medium/gt-walsheim-medium-web.ttf') format('truetype'),
+         url('fonts/GT_Walsheim_Web_Medium/gt-walsheim-medium-web.svg#gt_walsheim_thin_oblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gt_walsheim_regular';
+    src: url('fonts/GT_Walsheim_Web_Regular/gt-walsheim-web.eot');
+    src: url('fonts/GT_Walsheim_Web_Regular/gt-walsheim-web.eot?#iefix') format('embedded-opentype'),
+         url('fonts/GT_Walsheim_Web_Regular/gt-walsheim-web.woff') format('woff'),
+         url('fonts/GT_Walsheim_Web_Regular/gt-walsheim-web.ttf') format('truetype'),
+         url('fonts/GT_Walsheim_Web_Regular/gt-walsheim-web.svg#gt_walsheim_thin_oblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	margin: 0 0 0 0;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+header{
+	width: 100%;
+	height: 80px;
+	border-bottom: 1px solid #eaedf1;
+	position: fixed;
+	background-color: white;	
+	z-index: 1000;
+}
+
+p{
+	font-family: 'gt_walsheim_thin';
+}
+
+#logo{
+	position: absolute;
+	width: 200px;
+	height: 40px;
+	margin-top: 20px;
+	margin-left: 148px;
+}
+
+#logo_img{
+	width: 40px;
+	height: 40px;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+#logo_img img{
+	width: 100%;
+	border-radius: 10px;
+}
+
+#logo_text{
+	height: 40px;
+	width: auto;
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+#logo_text p{
+	font-family: 'gt_walsheim_regular';
+	font-size: 33px;
+	margin-top: 0px;
+}
+
+#logout{
+	width: 100px;
+	height: 40px;
+	display: inline-block;
+	float: right;
+	margin-top: 20px;
+	vertical-align: top;
+}
+
+#logout_img{
+	width: 20px;
+	height: 20px;
+	display: inline-block;	
+	margin-top: 10px;
+
+}
+
+#logout_img img{
+	width: 100%;
+}
+
+#logout_text{
+	width: 50px;
+	height: 40px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#logout_text p{
+	margin-top: 0px;
+	padding-top: 9px;
+}
+
+#main_menu{
+	width: 300px;
+	height: 100%;
+	background-color: #FFF6E5;
+	border-right: 1px solid #eaedf1;
+	display: inline-block;
+	float: left;
+	position: fixed;
+	margin-top: 81px;
+}
+
+#menu{
+	width: 150px;
+	height: auto;
+	position: fixed;
+	margin-left: 140px;
+}
+
+.menu_admin_img{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 15px;
+	padding-left: 5px;
+}
+
+.menu_admin_text{
+	width: 100px;
+	height: 70px;
+	display: inline-block;
+}
+
+.menu_admin_img img{
+	width: 100%;
+	border-radius: 20px;
+}
+
+.menu_element{
+	width: 160px;
+	height: 70px;
+	border-bottom: 1px solid #eaedf1;
+}
+
+.menu_element_on{
+	width: 160px;
+	height: 70px;
+	border-bottom: 1px solid #eaedf1;
+	border-right: 1px solid white;
+	background-color: white;
+}
+
+.menu_element p{
+	font-family: 'gt_walsheim_thin';
+	font-size: 18px;
+	margin-left: 5px;
+	margin-top: 0px;
+	padding-top: 23px;
+	padding-left: 5px;
+}
+
+.menu_element_on p{
+	font-family: 'gt_walsheim_thin';
+	font-size: 18px;
+	margin-left: 5px;
+	margin-top: 0px;
+	padding-top: 23px;
+	padding-left: 5px;
+}
+
+
+.wrapper{
+	width: 76.5%;
+	height: 87.2%;
+	display: inline-block;
+	vertical-align: top;
+	overflow:auto;
+	margin-top: 81px;
+	margin-left: 300px;
+}
+
+.wrapper_menu{
+	width: 100%;
+	height: 70px;
+	border-bottom: 1px solid #eaedf1;
+	background-color: #EAFAEA;
+	position: fixed;
+	z-index: 100;
+	left: 301px;
+}
+
+.submenu_element_1_on{
+	width: 200px;
+	height: 71px;
+	background-color: white;
+	text-align: center;
+	border-right: 1px solid #eaedf1;
+	display: inline-block;
+}
+
+.submenu_element{
+	width: 200px;
+	height: 71px;
+	text-align: center;
+	display: inline-block;
+}
+
+.submenu_element_on{
+	width: 200px;
+	height: 71px;
+	background-color: white;
+	text-align: center;
+	border-right: 1px solid #eaedf1;
+	border-left: 1px solid #eaedf1;
+	display: inline-block;
+}
+
+.wrapper_menu_text{
+	margin-top: 0px;
+	font-family: 'gt_walsheim_regular';
+	font-size: 18px;	
+	padding-top:22px;
+}
+
+.title{
+	width: auto;
+	height: 50px;
+	margin-top: 80px;
+}
+
+.title h1{
+	font-family: 'gt_walsheim_regular';
+	padding-top: 13px;
+	padding-left: 30px;
+	font-size: 25px;
+}
+
+.subtitle{
+	width: auto;
+	height: 50px;
+	position: relative;
+}
+
+.subtitle p{
+	font-family: 'gt_walsheim_thin';
+	margin-top: 0px;
+	padding-top: 13px;
+	padding-left: 30px;
+}
+
+#form{
+	width: 320px;	
+	padding-top: 18px;
+}
+
+
+#form_text{
+	width: 62%;
+	height: 40px;
+	margin-right: 10px;
+	vertical-align: top;
+	font-size: 15px;
+	padding-left: 5px;
+	font-family: 'gt_walsheim_thin';
+}
+
+#form_text2{
+	width: 25%;
+	height: 40px;
+	margin-right: 10px;
+	vertical-align: top;
+	font-size: 15px;
+	padding-left: 5px;
+	font-family: 'gt_walsheim_thin';
+}
+
+#form_text_3{
+	width: 30%;
+	height: 40px;
+	margin-right: 10px;
+	vertical-align: top;
+	font-size: 15px;
+	padding-left: 5px;
+	font-family: 'gt_walsheim_thin';
+}
+
+#form_text_lists{
+	width: 81%;
+	height: 40px;
+	margin-right: 10px;
+	vertical-align: top;
+	font-size: 15px;
+	padding-left: 5px;
+	font-family: 'gt_walsheim_thin';
+}
+
+.form_submit{
+	margin-right: 10px;
+	width:40px;
+	height:40px;
+	border: 0;
+	background-color: #50bca8;
+	border-radius: 3px;
+	cursor: pointer;
+	color: white;
+	font-size: 20px;
+	z-index: 100;
+	-webkit-appearance: none;
+}
+
+.form_submit:hover{
+	opacity: 0.9;
+}
+
+table{
+	width: 90%;
+}
+
+table, th, td {
+    border: 1px solid #eaedf1;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-family: 'gt_walsheim_thin';
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+	
+td {
+    padding-left: 5px;
+   	height: 40px;
+}
+
+#delete{
+	width: 30px;
+	padding: 0px;
+}
+
+#delete div{
+	width: 20px;
+	height: 20px;
+	background-color: #e84c3d;
+	border-radius: 3px;
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+#delete div p{
+	color: white;
+	font-family: 'gt_walsheim_regular';
+}
+
+#approve{
+	width: 30px;
+	padding: 0px;
+}
+
+
+#approve div{
+	width: 20px;
+	height: 20px;
+	background-color: #50bca8;
+	border-radius: 3px;
+	text-align: center;
+	color: white;
+	font-family: 'gt_walsheim_regular';
+	margin: 0 auto;
+}
+
+#delete:hover{
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+#add_temp_post{
+	width: 90%;
+	height: 50px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	background-color: blue;
+}
+
+#review div{
+	width: 20px;
+	height: 20px;
+	background-color: #ff9500;
+	border-radius: 3px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#review{
+	width: 30px;
+	padding: 0px;
+}
+
+#review div img{
+	margin-top: 2px;
+	width: 80%;
+}
+
+.list{
+	width: 100%;
+	height: 44px;
+	margin-top: 71.2px;
+	border-bottom: 1px solid #eaedf1;
+	border-left: 1px solid #eaedf1;
+	padding-top: 10px;
+	margin-bottom: -80px;
+	position: fixed;
+	z-index: 100;
+	background-color: white;
+}
+
+.list div{
+	width: 260px;
+	height: 28px;
+	background-color: #50bca8;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	text-align: center;
+	padding-top: 0px;
+	margin-left: 30px;
+	border-bottom: 1px solid #eaedf1;
+}
+
+.list p{
+	color: white;
+	font-family: 'gt_walsheim_regular';
+	padding: 4px 4px 4px 4px;
+}
+
+#close{
+	width: 15px;
+	height: 15px;
+	background-color: #7f7f7f;
+	position: absolute;
+	margin-top: 11px;
+	margin-left: 24px;
+	border-radius:7.5px;
+}
+
+#close p{
+	color: white;
+	margin-top: -6px;
+	font-family: 'gt_walsheim_regular';
+	font-size: 13px;	
+}
+
+#close:hover{
+	background-color: #666666;
+	cursor: pointer;
+}
+
+.dropdown{
+	width: 25%;
+	border:0px;
+	outline:0px;
+	height: 40px;	
+	margin-right: 10px;
+	font-family: 'gt_walsheim_thin';
+	font-size: 15px;
+	background-color: #e1e1e1;
+}
+
+.form_submit2{
+	margin-right: 10px;
+	float: right;
+	width:40px;
+	height:40px;
+	border: 0;
+	background-color: #50bca8;
+	border-radius: 3px;
+	cursor: pointer;
+	color: white;
+	font-size: 20px;
+	z-index: 100;
+	-webkit-appearance: none;
+}
+
+.form_submit2:hover{
+	opacity: 0.9;
+}
+
+#messages{
+	width: 400px;
+	min-height: 55px;
+	height: auto;
+	background-color: #50bca8;
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+#messages p{
+	color: white;
+}
+
+.loading{
+	margin-right: 10px;
+	float: right;
+	width:40px;
+	height:40px;
+	z-index: 100;
+	display: none;
+	text-align: center;
+}
+
+.loading img{
+	width: 50%;
+	margin-top: 11px;
+}
+
+#date{
+	width: 135px;
+	text-align: center;
+	color: #7f7f7f;
+}
+
+#account_image{
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	border-radius: 40px;
+	margin-top: 20px;
+}
+
+#account_image img{
+	width: 100%;
+	border-radius: 40px;
+}
+
+#account_title{
+	width: auto;
+	height: 30px;
+	margin: -10px auto 30px;
+	text-align: center;
+}
+
+#account_title h1{
+	font-family: 'gt_walsheim_regular';
+	padding-left: 30px;
+	font-size: 30px;
+	margin-left: -20px;
+}
+
+#account_table{
+	border: 2px solid white;
+}
+
+#account_heading{
+	width: 80px;
+	text-align: left;
+	font-family: 'gt_walsheim_regular';
+}
+
+#td_info{
+	text-align: center;
+	max-width: 10px;
+}
+
+#messages2{
+	width: 400px;
+	min-height: 55px;
+	height: auto;
+	background-color: #FF5E3A;
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+#messages2 p{
+	color: white;
+}
+
+.form_edit{
+	width:85%;
+	display: none;
+	position: relative;
+	background-color: #f1f1f1;
+}
+
+.form_edit_description{
+	width:30%;
+	display: none;
+	position: relative;
+	background-color: #f1f1f1;
+}
+
+.form_edit_list{
+	width:15%;
+	display: none;
+	position: relative;
+	background-color: #f1f1f1;
+}
+
+.info{
+	width: 85%;
+}
+
+#edit_text{
+	width: 90%;
+	border: none;
+	font-family: 'gt_walsheim_thin';
+    font-size: 15px;
+    margin-top: 13px;
+    outline: 0;
+    background-color: #f1f1f1;
+    margin: 6px 0 0 0;
+    padding: 0 0 0 0;
+    position: absolute;
+}
+
+#edit_list{
+	width: 75%;
+	border: none;
+	font-family: 'gt_walsheim_thin';
+    font-size: 15px;
+    margin-top: 13px;
+    outline: 0;
+    background-color: #f1f1f1;
+    margin: 6px 0 0 0;
+    padding: 0 0 0 0;
+    position: absolute;
+}
+
+.edit_submit{
+	margin-right: 10px;
+	width:30px;
+	height:30px;
+	border: 0;
+	background-color: #50bca8;
+	border-radius: 3px;
+	cursor: pointer;
+	color: white;
+	font-size: 20px;
+	z-index: 100;
+	padding-top: 0px;
+	-webkit-appearance: none;
+	float: right;
+}
+
+.ed_submit:hover{
+	opacity: 0.9;
+}
+
+#id div{
+	width: 15px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+#id div img{
+	width: 100%;
+}
+
+#bulk_insert{
+	width: 100px;
+	height: 50px;
+	background-color: red;
+}
+
+#submit_bulk{
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	display: inline-block;
+}

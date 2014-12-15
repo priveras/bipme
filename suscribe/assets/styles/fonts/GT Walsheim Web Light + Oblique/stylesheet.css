@@ -1,0 +1,23 @@
+/* GT Walsheim Web Light */
+
+@font-face {
+    font-family: 'gt_walsheim_light';
+    src: url('gt-walsheim-light-web.eot');
+    src: url('gt-walsheim-light-web.eot?#iefix') format('embedded-opentype'),
+         url('gt-walsheim-light-web.woff') format('woff'),
+         url('gt-walsheim-light-web.ttf') format('truetype'),
+         url('gt-walsheim-light-web.svg#gt_walsheim_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gt_walsheim_light_oblique';
+    src: url('gt-walsheim-light-oblique-web.eot');
+    src: url('gt-walsheim-light-oblique-web.eot?#iefix') format('embedded-opentype'),
+         url('gt-walsheim-light-oblique-web.woff') format('woff'),
+         url('gt-walsheim-light-oblique-web.ttf') format('truetype'),
+         url('gt-walsheim-light-oblique-web.svg#gt_walsheim_light_oblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
